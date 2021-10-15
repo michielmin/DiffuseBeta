@@ -21,4 +21,15 @@ A python program that can be used to create a plot from the output of Main.f.
 Makefile
 A makefile that compiles Main.f DiffuseBeta.f and Lapack.f into an executable.
 
+=====================================================================================
+
+The main parameters to vary in Main.f:
+
+nlong, nlatt = number of longitude and lattitide points, respectively
+Kxx = horizontal diffusion parameter (K_Lambda,Phi in Chubb et al. 2021)
+vxx = parameter for equatorial wind speed (V_Lambda in Chubb et al. 2021)
+powvxx = Exponent determining the latitudinal extent of equatorial winds (n_phi in Chubb et al. 2021)
+night2day = Heat redistribution factor. Integrated energy on nightside divided by integrated energy on the dayside (f_red in Chubb et al. 2021)
+
+=====================================================================================
 
