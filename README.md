@@ -1,5 +1,5 @@
 # DiffuseBeta
-Program to compute an simple estimate of the energy transport on a planet
+Program to compute a simple estimate of the energy transport on a planet
 
 The DiffuseBeta code is constructed to provide an analytic estimate of the distribution
 of energy around a planet using the setup described in Chubb et al. 2021
